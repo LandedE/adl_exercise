@@ -22,11 +22,12 @@ function App() {
 
   return (
     <Router>
-      <div style={{width: "30%", minHeight: "100vh", margin: "0 auto", border: "1px solid gray"}}>
-        <NavBar
-          isUserLoggedIn={isUserLoggedIn}
-          setIsUserLoggedIn={setIsUserLoggedIn}
-        />
+      <NavBar
+        isUserLoggedIn={isUserLoggedIn}
+        setIsUserLoggedIn={setIsUserLoggedIn}
+      />
+      <div id="main" style={{minHeight: "100vh", margin: "0 auto"}}>
+        
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -48,7 +49,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header
-              headerDescription="Alle Home"
+              headerDescription={"All\u0113 Home"}
               headerSubtext="This is the homepage"
             />
             <div

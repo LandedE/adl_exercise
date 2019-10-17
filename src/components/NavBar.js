@@ -7,7 +7,7 @@ function NavBar (props){
 
 
   return (<Navbar bg="light" expand="lg">
-    <Link to="/"><Navbar.Brand href="/">Alle</Navbar.Brand></Link>
+    <Link to="/"><Navbar.Brand href="/">{"All\u0113"}</Navbar.Brand></Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">

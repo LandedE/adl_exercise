@@ -7,7 +7,7 @@ function Header(props){
       <br/>
       <br/>
       <div>
-        <h1 style={{fontWeight: "bold"}}> Alle </h1>
+        <h1 style={{fontWeight: "bold"}}> {'All\u0113'} </h1>
       </div>
       <br/>
       <br/>
