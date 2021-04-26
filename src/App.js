@@ -19,7 +19,7 @@ import {
 function App() {
 
   let [isUserLoggedIn, setIsUserLoggedIn] = useState(!!localStorage.getItem("alle_token"));
-  console.log("change again");
+  console.log("change again 123");
   return (
     <Router>
       <NavBar
